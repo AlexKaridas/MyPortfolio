@@ -48,11 +48,10 @@ export default function Home() {
       </div>
       <div className={styles.container}>
         <div className={styles.section} id={styles.welcome}>
-          <div className={styles.blur}></div>
+          {/* <div className={styles.blur}></div> */}
           <h1>
             I&apos;m a <span>Web Developer</span> bringing you{" "}
-            <span>Design</span>
-            and <span>Programming</span> from the future.
+            <span>Design</span> and <span>Programming</span> from the future.
           </h1>
         </div>
         <div className={styles.section} id={styles.about}>

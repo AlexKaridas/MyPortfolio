@@ -1,6 +1,7 @@
 div.main {
   height: 100vh;
   min-width: 100vh;
+  // overflow: hidden;
   // scroll-snap-type: proximity;
   // scroll-snap-points-y: repeat(100vh);
   // scroll-snap-type: y mandatory;
@@ -67,7 +68,11 @@ div.main {
       display: flex;
       // min-width: 100vh;
       width: 100%;
-      background-image: url(https://images.unsplash.com/photo-1648424829375-87e10f6c9603?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80);
+      background-image: linear-gradient(
+          rgba(4, 17, 19, 0.7),
+          rgba(4, 9, 30, 0.7)
+        ),
+        url(https://images.unsplash.com/photo-1648424829375-87e10f6c9603?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80);
       // background-image: url("../public/images/moon.jpg");
       // background-image: url(https://images.unsplash.com/photo-1502239608882-93b729c6af43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
       // background-image: url(https://images.unsplash.com/photo-1537989036885-80b4d200958d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=800);
@@ -86,19 +91,19 @@ div.main {
       }
     }
 
-    div.blur {
-      background-color: rgba(0, 0, 0, 0.4);
-      position: absolute;
-      width: auto;
-      height: 100%;
-      min-width: 136vh;
-      top: 0;
-      left: 0;
-      right: 0;
-      // top: 0;
-      z-index: 0;
-      // scroll-snap-align: start;
-    }
+    // div.blur {
+    //   background-color: rgba(0, 0, 0, 0.4);
+    //   position: absolute;
+    //   // width: auto;
+    //   height: 100%;
+    //   min-width: 136vh;
+    //   top: 0;
+    //   left: 0;
+    //   right: 0;
+    //   // top: 0;
+    //   z-index: 0;
+    //   // scroll-snap-align: start;
+    // }
 
     #about {
       background-color: #04080b;
@@ -311,7 +316,4 @@ div.main {
       }
     }
   }
-}
-
-@media only screen and (max-width: 1097px) {
 }
