@@ -31,17 +31,17 @@ export default function Home() {
           <li>About</li>
           <li>
             <a href="https://github.com/AlexKaridas">
-              <i class="fab fa-github"></i>
+              <i className={"fab fa-github"}></i>
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/alex-karidas-1a6b4021a/">
-              <i class="fab fa-linkedin"></i>
+              <i className={"fab fa-linkedin"}></i>
             </a>
           </li>
           <li>
             <a href="https://twitter.com/AlexKaridas">
-              <i class="fab fa-twitter"></i>
+              <i className={"fab fa-twitter"}></i>
             </a>
           </li>
         </ul>
@@ -50,7 +50,8 @@ export default function Home() {
         <div className={styles.section} id={styles.welcome}>
           <div className={styles.blur}></div>
           <h1>
-            I'm a <span>Web Developer</span> bringing you <span>Design</span>{" "}
+            I&apos;m a <span>Web Developer</span> bringing you{" "}
+            <span>Design</span>
             and <span>Programming</span> from the future.
           </h1>
         </div>
@@ -58,9 +59,10 @@ export default function Home() {
           <h1>About</h1>
           <h2>Always curious Always learning</h2>
           <div className={styles.aboutText}>
-            I'm a Web Developer from Greece with a passion for learning and
-            creating. I'm currently working on a front-end position at
-            Metabloq.io. I'm also aspiring to become a full-stack developer.
+            I&apos;m a Web Developer from Greece with a passion for learning and
+            creating. I&apos;m currently working on a front-end position at
+            Metabloq.io. I&apos;m also aspiring to become a full-stack
+            developer.
           </div>
         </div>
         <div className={styles.section} id={styles.work}>
@@ -72,8 +74,8 @@ export default function Home() {
                 <h2>My skills are as follows:</h2> Html, CSS, Javascript, React,
                 Next Js,
               </h2>
-              I've worked on a variety of projects, but I'm most proud of my
-              work on the following:
+              I&apos;ve worked on a variety of projects, but I&apos;m most proud
+              of my work on the following:
             </h3>
             <a href="https://github.com/AlexKaridas?tab=repositories">
               Explore
@@ -94,8 +96,8 @@ export default function Home() {
                 type="text"
                 placeholder="Email"
                 id="email"
-                minlength="10"
-                maxlength="20"
+                minLength="10"
+                maxLength="20"
                 name="email"
               />
               <h3>Name</h3>
