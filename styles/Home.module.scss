@@ -17,7 +17,7 @@ div.main {
     align-items: center;
     padding: 0px 20px;
 
-    p {
+    div.name {
       font-size: 20px;
       color: white;
     }
@@ -124,7 +124,7 @@ div.main {
         font-weight: 100;
         font-size: 30px;
       }
-      p {
+      div.aboutText {
         display: flex;
         align-items: left;
         justify-content: left;

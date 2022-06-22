@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <div className={styles.navbar}>
-        <p>Alex Karidas</p>
+        <div className={styles.name}>Alex Karidas</div>
         <ul id={styles.nav}>
           <li>About</li>
           <li>
@@ -49,7 +49,6 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.section} id={styles.welcome}>
           <div className={styles.blur}></div>
-
           <h1>
             I'm a <span>Web Developer</span> bringing you <span>Design</span>{" "}
             and <span>Programming</span> from the future.
@@ -58,11 +57,11 @@ export default function Home() {
         <div className={styles.section} id={styles.about}>
           <h1>About</h1>
           <h2>Always curious Always learning</h2>
-          <p>
+          <div className={styles.aboutText}>
             I'm a Web Developer from Greece with a passion for learning and
             creating. I'm currently working on a front-end position at
             Metabloq.io. I'm also aspiring to become a full-stack developer.
-          </p>
+          </div>
         </div>
         <div className={styles.section} id={styles.work}>
           <div className={styles.workCard}></div>
@@ -71,8 +70,8 @@ export default function Home() {
               <h1>Dig into my universe</h1>
               <h2>
                 <h2>My skills are as follows:</h2> Html, CSS, Javascript, React,
-                Next Js{" "}
-              </h2>{" "}
+                Next Js,
+              </h2>
               I've worked on a variety of projects, but I'm most proud of my
               work on the following:
             </h3>
